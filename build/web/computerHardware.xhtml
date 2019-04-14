@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h:form>
+            TITLE:
+            <br/>
+            <h:inputText value="#{input.title}"/>
+            <br/><br/>
+
+            YEAR:
+            <br/>
+            <h:inputText value="#{input.year}"/>
+            <br/><br/>
+
+            MODEL NUMBER:
+            <br/>
+            <h:inputText value="#{input.modelNumber}"/>
+            <br/><br/>
+
+            RELEASE YEAR:
+            <br/>
+            <h:inputText value="#{input.releaseYear}"/>
+            <br/><br/>
+
+            RETAIL PRICE IN 2018:
+            <br/>
+            <h:inputText value="#{input.retailPriceIn2018}"/>
+            <br/><br/>
+
+            MANUFACTURER:
+            <br/>
+            <h:inputText value="#{input.manufacturer}"/>
+            <br/><br/>
+
+            MOST IMPORTANT SPECIFICATIONS:
+            <br/>
+            <h:inputText value="#{input.mostImportantSpecifications}"/>
+            <br/><br/>
+
+            DESCRIPTION:
+            <br/>
+            <h:inputText value="#{input.description}"/>
+            <br/><br/>
+
+            <h:commandButton value="Submit" action="#{controller.computerHardwareExecute(input)}" />
+            <h:commandButton value="Back"  action="index"/>
+
+        </h:form>
+    </body>
+</html>
