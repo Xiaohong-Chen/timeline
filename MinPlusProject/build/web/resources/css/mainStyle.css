@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Sourcd Sans Pro",san-serif;
+
+}
+
+.global-header{
+    text-align: center;
+}
+
+.global-header ul li{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    padding: 2em 2em 2em 2em ;
+
+}
+.main-content{
+    text-align: center;
+}
+.image-display-all{
+    display: inline-block;
+    width:80%;
+    text-align:match-parent;
+    
+}
+.product-item{
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    background: rgba(245,245,245,100);
+    margin: 0.5%;
+    border-radius: 5px;
+}
+.product-item img{
+    padding: 15px 10px 15px 10px;
+    width: 90%;
+}
+.product-text{
+    padding: 15px 10px 15px 10px;
+    text-align: left;
+}
+
+
+.loginStyle{
+    
+    height: 30px;
+    width:332px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 4px 4px;
+    border:1px solid;
+    border-color: silver;
+    font-size: 15px;
+    color:gray;
+    padding: 10px 10px 10px 10px;
+}
+.loginButtonStyle{
+    
+    height: 30px;
+    width:145px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 4px 4px;
+    border:1px solid;
+    border-color: silver;
+    font-size: 15px;
+    color:gray;
+    
+    
+}
+.cancelButtonStyle{
+    height: 30px;
+    width:145px;
+    margin: 10px 10px 10px 10px;
+    border:none;
+    font-size: 15px;
+    background-color: white;
+}
+.signIn{
+    margin-top: 5%;
+    display: inline-block;
+    background-color: lightgray;
+    width:40%;
+    height: 35%;
+}

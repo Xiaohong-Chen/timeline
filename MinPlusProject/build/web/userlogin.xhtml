@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <h:outputStylesheet library="css" name="mainStyle.css"/>
+
+    </h:head>
+    <h:body>
+        <div class="global-header">
+            <div class="global-header">
+                <ul>
+                    <li><a href="">XXXXXX</a></li>
+                    <li><a href="">XXXXXX</a></li>
+                    <li><a href="">XXXXXX</a></li>
+                    <li><a href="">XXXXXX</a></li>
+                </ul>
+            </div>
+            <hr></hr>
+            <div class="main-content">
+                <div class="signIn">
+                    <h:form>
+                        <h1>Sign In</h1>
+                        <br/><br/><br/>
+                        <h:inputText styleClass="loginStyle" p:placeholder="Email" value="#{userLogin.userLoginEmail}"  />
+                        <br/><br/>
+                        <h:inputText styleClass="loginStyle"  p:placeholder="Password" p:type="password" value="#{userLogin.userLoginPassword}"  />
+                        <br/><br/>
+                        <h:commandButton styleClass="loginButtonStyle" value="Sign In" action="#{userLogin.checkUserAccount()}" />
+                        <h:commandButton styleClass="cancelButtonStyle" value="Cancel" action="index.xhtml"/>
+                    </h:form>
+                </div>
+            </div>
+        </div>
+    </h:body>
+</html>
